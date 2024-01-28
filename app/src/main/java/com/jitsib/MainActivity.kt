@@ -27,7 +27,6 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
 
     private val BTList = mutableListOf<BluetoothDevice>()
-    private val messageList = mutableListOf<DC_message_item>()
     private lateinit var adapter: recyclerViewBt
     private lateinit var socket: BluetoothSocket
 
